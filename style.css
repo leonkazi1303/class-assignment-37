@@ -1,0 +1,511 @@
+.main-section {
+    padding: 50px 0;
+}
+
+.top-style h6 {
+    color: #3763eb;
+    text-transform: uppercase;
+}
+
+.top-style h2 {
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.top-style .faka {
+    width: 50px;
+    height: 2px;
+    background: #3763eb;
+    margin-bottom: 15px;
+}
+
+.top-style p {
+    color: #a5a5a5;
+}
+
+.discover-section {
+    margin-bottom: 70px;
+}
+
+.discover-section .card-style {
+    padding: 23px;
+    background: #f6f9fc;
+    transition: .5s;
+}
+
+.discover-section .card-style:hover {
+    background: #3763eb;
+    color: white;
+}
+
+.discover-section .card-style:hover .icon-style i {
+    background: white;
+    color: #3763eb;
+}
+
+.discover-section .card-style:hover .faka {
+    background: white;
+}
+
+.discover-section .card-style h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.discover-section .card-style .icon-style {
+    margin-bottom: 20px;
+}
+
+.discover-section .card-style .icon-style i {
+    background: #3763eb;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    border-radius: 50% 50% 50% 0;
+    transition: .5s;
+
+}
+
+.discover-section .card-style .faka {
+    width: 50px;
+    height: 2px;
+    background: #3763eb;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.discover-section .card-style .h6 {
+    color: #aba7b6;
+}
+
+.discover-section .card-style:hover .faka {
+    width: 70px;
+}
+
+.animation-section {
+    background-image: url(./Img/video-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.animation-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 19, 61, 0.575);
+}
+
+.animation-section .animation-style {
+    position: relative;
+}
+
+.animation-style h6 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.animation-style h2 {
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.animation-style .faka {
+    width: 50px;
+    height: 3px;
+    background: white;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.animation-style p {
+    color: #ffffff;
+}
+
+.animation-button i {
+    font-size: 80px;
+    transition: .5s;
+}
+
+.animation-button i:hover {
+    color: #3763eb;
+
+}
+
+.default-bg {
+    background-color: #f6f9fc;
+}
+
+.pricing-table-section {
+    padding: 70px 0;
+}
+
+.default-style h6 {
+    color: #3763eb;
+    text-transform: uppercase;
+}
+
+.default-style h2 {
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.default-style .faka {
+    width: 50px;
+    height: 2px;
+    background: #3763eb;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.default-style p {
+    color: #a5a5a5;
+}
+
+.pricing-table-section .pricing-tables {
+    margin-top: 50px;
+}
+
+.pricing-table-section .pricing-tables .colour {
+    padding: 0 65px;
+    transition: .4s;
+}
+
+.pricing-table-section .pricing-tables .table-top {}
+
+.pricing-table-section .pricing-tables .table-top h6 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.pricing-table-section .pricing-tables .table-top h2 {
+    font-weight: 700;
+    margin: 25px;
+}
+
+.pricing-table-section .pricing-tables .table-top p {
+    color: #b3b2b2;
+    border-bottom: 2px solid rgb(224, 224, 224);
+    padding-bottom: 30px;
+    transition: .4s;
+}
+
+.pricing-table-section .pricing-tables .table-bottom {}
+
+.pricing-table-section .pricing-tables .table-bottom ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pricing-table-section .pricing-tables .table-bottom ul li {
+    color: #747474;
+    line-height: 40px;
+    transition: .4s;
+}
+
+.pricing-table-section .pricing-tables .table-bottom .table-button {
+    margin-top: 30px;
+    transition: .4s;
+}
+
+.pricing-table-section .pricing-tables .table-bottom .table-button a {
+    background: #3763eb;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 2px solid #3764eb00;
+    transition: .4s;
+}
+
+.pricing-table-section .pricing-tables .colour:hover {
+    background: #3763eb;
+    color: white !important;
+}
+
+.pricing-table-section .pricing-tables .colour:hover ul li {
+    color: white !important;
+}
+
+.pricing-table-section .pricing-tables .colour:hover p {
+    color: white !important;
+}
+
+.pricing-table-section .pricing-tables .colour:hover .table-button a {
+    background: white;
+    color: #3763eb;
+}
+
+.lite-version {
+    background-image: url(./Img/free-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+    text-align: center;
+    position: relative;
+
+}
+
+.lite-version::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3764ebd7;
+
+}
+
+.lite-version .details {
+    position: relative;
+}
+
+.lite-version .default-style h6 {
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.lite-version .default-style h2 {
+    font-weight: 700;
+    color: white;
+    padding: 20px 0;
+}
+
+.lite-version .default-style .faka {
+    width: 50px;
+    height: 2px;
+    background: #ffffff;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.lite-version .default-style p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.lite-version .default-button {}
+
+.lite-version .default-button a {
+    background: white;
+    color: #3763eb;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .4s;
+}
+
+.lite-version .default-button a:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid #ffffff;
+}
+
+.sign-up-section {
+    background: #f6f9fc;
+    padding: 80px 0;
+}
+
+.newsletter {
+    padding: 50px 40px;
+    border-radius: 5px;
+    background: #3763eb;
+}
+
+.newsletter h4 {
+    font-weight: 600;
+}
+
+.newsletter h6 {
+    font-weight: 300;
+    padding: 15px 0;
+}
+
+.newsletter .newsletter-info {}
+
+.newsletter .newsletter-info input {
+    width: 350px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+}
+
+.newsletter .newsletter-info a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+.newsletter .newsletter-info a:hover {
+    background: white;
+    color: #3763eb;
+    transform: translateY(-10px);
+
+}
+
+.newsletter-two {
+    padding: 28px 20px;
+    border-radius: 5px;
+}
+
+.newsletter-two h4 {
+    font-weight: 600;
+}
+
+.newsletter-two p {
+    color: #8289a0;
+}
+
+.massive-button a {
+    background: #3763eb;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    transition: .4s;
+}
+
+.massive-button a:hover {
+    background: white;
+    color: #3763eb;
+    border-color: #3763eb;
+}
+
+.client-section {
+    padding: 80px 0;
+}
+
+.client-section .default-style {
+    padding: 10px;
+}
+
+.client-section .default-style .faka-2 {
+    width: 50px;
+    height: 2px;
+    background: #3763eb;
+    margin-bottom: 15px;
+}
+
+.client-list {
+    margin-top: 45px;
+}
+
+.client-list .client-img {
+    border: 1px solid rgb(161, 161, 161);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.client-list .client-img img {
+    opacity: .50;
+    transition: .4s;
+    height: 100%;
+    /* width: 100%; */
+
+}
+
+.client-list .client-img:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.news-section {
+    background-color: rgb(248, 252, 255);
+	padding: 60px 0;
+}
+
+.faka-div {
+    width: 50px;
+    height: 2px;
+    background: #3763eb;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 15px;
+}
+
+.news-section .blog-section {}
+
+.news-section .card {
+    border-radius: 5px;
+}
+
+.news-section .card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.news-section .blog-text {
+    padding: 15px 5px;
+}
+
+.news-section .blog-text h5 {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.news-section .blog-text p {
+    color: #7e7e7e;
+}
+
+.footer-section {
+	background: black;
+	padding-top: 80px;
+	padding-bottom: 2px;
+	color: white;
+}
+.footer-section .footer-1{
+    padding: 0 10px;
+}
+.footer-section .footer-image{
+    width: 100px;
+}
+.footer-section .footer-image img{
+    max-width: 100%;
+}
+.footer-section p{
+    color: rgb(214, 214, 214);
+    padding: 15px 0;
+}
+.footer-1 .footer-icon ul{
+    padding-left: 0;
+}
+.footer-1 .footer-icon ul li {
+	display: inline-block;
+	color: rgb(189, 189, 189);
+	text-decoration: none;
+	padding: 0 10px;
+	font-size: 20px;
+}
+.footer-2 h4 {
+	border-left: 3px solid #3763eb;
+	padding: 0 10px;
+    margin-bottom: 15px;
+}
+.footer-2 ul{
+    padding-left: 0;
+}
+.footer-2 ul li {
+	text-decoration: none;
+	list-style: none;
+	color: #858b99;
+	font-weight: 600;
+	line-height: 40px;
+}
